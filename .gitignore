@@ -1,0 +1,14 @@
+# sbt build output
+target/
+
+# Metals, Bloop, and BSP generated state
+.metals/
+.bloop/
+.bsp/
+
+# Metals-generated sbt project files
+project/project/
+project/metals.sbt
+
+# Local IDE launch config (contains machine-specific absolute paths)
+.vscode/launch.json
