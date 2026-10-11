@@ -1,4 +1,4 @@
-package expenses.api
+package agunginsani.api
 
 import cats.effect.IO
 import org.http4s.{HttpRoutes, MediaType, Response, Status}

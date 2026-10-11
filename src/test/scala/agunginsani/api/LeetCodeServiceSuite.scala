@@ -1,6 +1,7 @@
-package expenses.api
+package agunginsani.api
 
 import munit.FunSuite
+import agunginsani.api.LeetCodeService
 
 final class LeetCodeServiceSuite extends FunSuite:
   test("returns 0 for an empty string"):

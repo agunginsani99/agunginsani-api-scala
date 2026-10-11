@@ -1,4 +1,4 @@
-package expenses.api
+package agunginsani.api
 
 import org.http4s.{HttpRoutes, Response, headers, Status, MediaType}
 import org.http4s.dsl.io.*
@@ -6,7 +6,7 @@ import org.http4s.circe.*
 import io.circe.generic.auto.*
 import org.http4s.circe.CirceEntityEncoder.*
 import cats.effect.IO
-import expenses.api.LeetCodeService
+import agunginsani.api.LeetCodeService
 
 final case class LongestSubstringWithoutRepeatingCharactersResponse(
     input: String,

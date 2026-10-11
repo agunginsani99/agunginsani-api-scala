@@ -1,4 +1,4 @@
-package expenses.api
+package agunginsani.api
 
 import cats.effect.{IO, IOApp}
 import cats.syntax.all.*

@@ -1,4 +1,4 @@
-package expenses.api
+package agunginsani.api
 
 import com.comcast.ip4s.{Host, Ipv4Address, Ipv6Address, Port}
 

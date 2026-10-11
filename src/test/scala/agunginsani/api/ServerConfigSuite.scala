@@ -1,6 +1,7 @@
-package expenses.api
+package agunginsani.api
 
 import munit.FunSuite
+import agunginsani.api.ServerConfig
 
 final class ServerConfigSuite extends FunSuite:
   test("uses public listener defaults when variables are absent"):

@@ -1,4 +1,4 @@
-package expenses.api
+package agunginsani.api
 
 import scala.annotation.tailrec
 

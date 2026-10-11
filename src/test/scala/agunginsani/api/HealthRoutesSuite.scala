@@ -1,9 +1,10 @@
-package expenses.api
+package agunginsani.api
 
 import cats.effect.IO
 import munit.CatsEffectSuite
 import org.http4s.{Method, Request, Status}
 import org.http4s.implicits.*
+import agunginsani.api.HealthRoutes
 
 final class HealthRoutesSuite extends CatsEffectSuite:
   private val app = HealthRoutes.routes.orNotFound
