@@ -16,7 +16,9 @@ object Main extends IOApp.Simple:
         .default[IO]
         .withHost(config.host)
         .withPort(config.port)
-        .withHttpApp((HealthRoutes.routes <+> LeetCodeRoutes.routes).orNotFound)
+        .withHttpApp(
+          (HealthRoutes.routes <+> LeetCodeRoutes.routes <+> SpreadsheetRoutes.routes).orNotFound
+        )
         .build
         .useForever
     }

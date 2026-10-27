@@ -14,6 +14,8 @@ lazy val root = (project in file("."))
       "org.http4s" %% "http4s-dsl" % "0.23.30",
       "org.http4s" %% "http4s-circe" % "0.23.30",
       "io.circe"   %% "circe-generic" % "0.14.10",
+      "com.google.apis" % "google-api-services-sheets" % "v4-rev20260930-2.0.0",
+      "com.google.auth" % "google-auth-library-oauth2-http" % "1.54.0",
       "ch.qos.logback" % "logback-classic" % "1.2.13" % Runtime,
       "org.typelevel" %% "munit-cats-effect" % "2.0.0" % Test
     )
